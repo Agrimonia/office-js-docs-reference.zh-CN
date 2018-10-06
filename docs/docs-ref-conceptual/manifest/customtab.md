@@ -11,14 +11,14 @@
 |  元素 |  必需  |  说明  |
 |:-----|:-----|:-----|
 |  [Group](group.md)      | 是 |  定义一组命令。  |
-|  [标签](#label-tab)      | 是 |  CustomTab 或组的标签。  |
-|  [控件](control.md)    | 是 |  一个或多个控件对象的集合。  |
+|  [Label](#label-tab)      | 是 |  CustomTab 或组的标签。  |
+|  [Control](control.md)    | 是 |  一个或多个控件对象的集合。  |
 
-### <a name="group"></a>组
+### <a name="group"></a>Group
 
 必需。查看 [Group 元素](group.md)。
 
-### <a name="label-tab"></a>标签（选项卡）
+### <a name="label-tab"></a>Label (Tab)
 
 必需。自定义选项卡的标签。 **resid** 属性必须设置为 **ShortStrings** 元素（位于 **Resources** 元素）中 **String** 元素的 [id](resources.md) 属性的值。
 

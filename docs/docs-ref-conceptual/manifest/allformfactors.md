@@ -1,6 +1,6 @@
 # <a name="allformfactors-element"></a>AllFormFactors 元素
 
-指定加载项的所有外观设置。 目前，仅使用**AllFormFactors**的功能是自定义函数。 使用自定义的函数时， **AllFormFactors**是必需的元素。
+指定加载项的所有外观设置。目前，仅使用 **AllFormFactors** 的功能是自定义函数。使用自定义的函数时，**AllFormFactors** 是必需的元素。
 
 ## <a name="child-elements"></a>子元素
 

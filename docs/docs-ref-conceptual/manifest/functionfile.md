@@ -1,8 +1,8 @@
 # <a name="functionfile-element"></a>FunctionFile 元素
 
-为外接程序通过外接程序命令公开的操作指定源代码文件，这些外接程序命令执行 JavaScript 函数，而不显示 UI。**FunctionFile** 元素是 [DesktopFormFactor](desktopformfactor.md) 或 [MobileFormFactor](mobileformfactor.md) 的子元素。**FunctionFile** 元素的 **resid** 属性被设置为 **Resources** 元素中的 **Url** 元素的 **id** 属性值，Resources 元素包含 HTML 文件的 URL，其中包含或加载所有由无 UI 外接程序命令按钮使用的 JavaScript 函数（由 [Control](control.md) 元素定义）。
+为外接程序通过 **外接程序命令（add-ins commands）** 暴露的操作指定源代码文件，这些外接程序命令执行 JavaScript 函数，而不显示 UI。**FunctionFile** 元素是 [DesktopFormFactor](desktopformfactor.md) 或 [MobileFormFactor](mobileformfactor.md) 的子元素。**FunctionFile** 元素的 **resid** 属性被设置为 **Resources** 元素中的 **Url** 元素的 **id** 属性值，Resources 元素包含 HTML 文件的 URL，其中包含或加载所有由无 UI 外接程序命令按钮（add-ins commands buttons）使用的 JavaScript 函数（由 [Control](control.md) 元素定义）。
 
-下面是**FunctionFile**元素的示例。
+下面是 **FunctionFile** 元素的示例。
 
 ```XML
 <DesktopFormFactor>
@@ -16,7 +16,7 @@
 </DesktopFormFactor>
 ```
 
-指示由**FunctionFile**元素的 HTML 文件中的 JavaScript 必须调用`Office.initialize`，并定义单个参数命名的函数： `event`。 应使用函数`item.notificationMessages`API 显示进度、 成功或对用户失败。 它还应调用`event.completed`执行已完成。 无用户界面按钮， **FunctionName**元素中使用的函数名称。
+指示由 **FunctionFile** 元素的 HTML 文件中的 JavaScript 必须调用`Office.initialize`，并定义单个参数命名的函数： `event`。 应使用函数`item.notificationMessages` API 对用户显示进度——成功或失败。 它还应调用 `event.completed` 执行已完成。 无用户界面按钮， **FunctionName** 元素中使用的函数名称。
 
 以下是定义 **trackMessage** 函数的 HTML 文件的示例。
 
@@ -64,4 +64,4 @@ function writeText(event) {
 ```
 
 > [!IMPORTANT]
-> 调用**event.completed**信号您已成功处理事件。 当某个函数被多次调用时（例如多次单击同一加载项命令时），所有事件将自动排队。 首个事件将自动运行，而其他事件仍保持在队列中。 当函数调用 **event.completed** 时，将运行队列中下一个对此函数的调用。 您必须调用**event.completed**;否则将无法运行您的函数。
+> 调用 **event.completed** 表明您已成功处理事件。当某个函数被多次调用时（例如多次单击同一加载项命令时），所有事件将自动进入队列。 首个事件将自动运行，而其他事件仍保持在队列中。 当函数调用 **event.completed** 时，将运行队列中下一个对此函数的调用。 您必须调用 **event.completed**;否则将无法运行您的函数。

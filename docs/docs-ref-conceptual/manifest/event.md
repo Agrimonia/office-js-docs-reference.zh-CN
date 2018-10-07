@@ -3,7 +3,7 @@
 定义外接程序中的事件处理程序。
 
 > [!NOTE] 
-> `Event`元素是当前只支持 Office 365 中 web 上的 Outlook。
+> `Event`元素是当前只支持 Office 365 中的 Outlook web 版。
 
 ## <a name="attributes"></a>属性
 

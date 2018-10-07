@@ -26,5 +26,5 @@
 
 ## <a name="remarks"></a>备注
 
-**DefaultSettings** 元素中的源位置和其他设置仅应用于内容和任务窗格外接程序。对于邮件外接程序，您在 [FormSettings](formsettings.md) 元素中指定源文件的默认位置和其他默认设置。
+**DefaultSettings** 元素中的源位置和其他设置仅应用于内容和任务窗格外接程序。而对于邮件外接程序，您需要在 [FormSettings](formsettings.md) 元素中指定源文件的默认位置和其他默认设置。
 

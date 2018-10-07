@@ -1,6 +1,6 @@
 # <a name="disableentityhighlighting-element"></a>DisableEntityHighlighting 元素
 
-指定是否应为邮件外接程序关闭实体突出显示。
+指定是否应为邮件外接程序关闭实体高亮显示。
 
 **外接程序类型：** 邮件
 

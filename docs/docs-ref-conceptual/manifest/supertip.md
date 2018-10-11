@@ -1,13 +1,13 @@
 # <a name="supertip"></a>Supertip
 
-定义丰富的工具提示（标题和说明）。它由“[按钮](control.md#button-control)”或“[菜单](control.md#menu-dropdown-button-controls)”控件使用。
+定义丰富的提示框（标题和说明）。它由“[按钮](control.md#button-control)”或“[菜单](control.md#menu-dropdown-button-controls)”控件使用。
 
 ## <a name="child-elements"></a>子元素
 
 |  元素 |  必需  |  说明  |
 |:-----|:-----|:-----|
-|  [标题](#title)        | 是 |   supertip 的文本。         |
-|  [说明](#description)  | 是 |  supertip 的说明。    |
+|  [Title](#title)        | 是 |   supertip 的文本。         |
+|  [Description](#description)  | 是 |  supertip 的说明。    |
 
 ### <a name="title"></a>标题
 

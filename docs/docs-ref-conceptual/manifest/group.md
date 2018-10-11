@@ -15,8 +15,8 @@
 ## <a name="child-elements"></a>子元素
 |  元素 |  必需  |  说明  |
 |:-----|:-----|:-----|
-|  [标签](#label)      | 是 |  CustomTab 或组的标签。  |
-|  [控件](#control)    | 是 |  一个或多个控件对象的集合。  |
+|  [Label](#label)      | 是 |  CustomTab 或组的标签。  |
+|  [Control](#control)    | 是 |  一个或多个控件对象的集合。  |
 
 ### <a name="label"></a>标签 
 

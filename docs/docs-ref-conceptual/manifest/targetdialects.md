@@ -14,7 +14,7 @@
 
 ## <a name="contained-in"></a>包含在
 
-"词典"
+[Dictionary](dictionary.md)
 
 ## <a name="see-also"></a>另请参阅
 

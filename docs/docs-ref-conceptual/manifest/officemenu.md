@@ -12,7 +12,7 @@
 
 |  元素 |  必需  |  说明  |
 |:-----|:-----|:-----|
-|  [控件](#control)    | 是 |  一个或多个 Control 对象的集合。  |
+|  [Control](#control)    | 是 |  一个或多个 Control 对象的集合。  |
 
 ## <a name="xsitype"></a>xsi:type
 

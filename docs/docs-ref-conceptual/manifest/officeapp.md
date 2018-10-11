@@ -30,9 +30,9 @@ Office 外接程序清单中的根元素。
 |[DefaultLocale](defaultlocale.md)|x|x|x|
 |[DefaultSettings](defaultsettings.md)|x||x|
 |[DisplayName](displayname.md)|x|x|x|
-|[说明](description.md)|x|x|x|
+|[Description](description.md)|x|x|x|
 |[FormSettings](formsettings.md)||x||
-|[权限](permissions.md)|x||x|
+|[Permissions](permissions.md)|x||x|
 |[Rule](rule.md)||x||
 
 ## <a name="can-contain"></a>可以包含
@@ -44,12 +44,12 @@ Office 外接程序清单中的根元素。
 |[HighResolutionIconUrl](highresolutioniconurl.md)|x|x|x|
 |[SupportUrl](supporturl.md)|x|x|x|
 |[AppDomains](appdomains.md)|x|x|x|
-|[主机](hosts.md)|x|x|x|
-|[要求](requirements.md)|x|x|x|
+|[Hosts](hosts.md)|x|x|x|
+|[Requirements](requirements.md)|x|x|x|
 |[AllowSnapshot](allowsnapshot.md)|x|||
-|[权限](permissions.md)||x||
+|[Permissions](permissions.md)||x||
 |[DisableEntityHighlighting](disableentityhighlighting.md)||x||
-|"词典"|||x|
+|[Dictionary](dictionary.md)|||x|
 |[VersionOverrides](versionoverrides.md)|X|X|X|
 
 ## <a name="attributes"></a>属性

@@ -15,7 +15,7 @@
 |**元素**|
 |:-----|
 |[CitationText](citationtext.md)|
-|[说明](description.md)|
+|[Description](description.md)|
 |[DictionaryName](dictionaryname.md)|
 |[DictionaryHomePage](dictionaryhomepage.md)|
 |[DisplayName](displayname.md)|

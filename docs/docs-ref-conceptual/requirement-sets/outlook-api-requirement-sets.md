@@ -1,6 +1,6 @@
 # <a name="outlook-javascript-api-requirement-sets"></a>Outlook 的 JavaScript API 要求集
 
-Outlook 加载项声明要求通过使用其[清单](https://docs.microsoft.com/office/dev/add-ins/develop/add-in-manifests)中的[要求](/javascript/office/manifest/requirements)元素哪些 API 版本。 Outlook 加载项始终包括 [Set](/javascript/office/manifest/set) 元素，其中 `Name` 属性设置为 `Mailbox` 且 `MinVersion` 属性设置为支持加载项方案的 API 最低要求集。
+Outlook 加载项声明要求通过使用其[清单](https://docs.microsoft.com/office/dev/add-ins/develop/add-in-manifests)中的[Requirements](/javascript/office/manifest/requirements)元素哪些 API 版本。 Outlook 加载项始终包括 [Set](/javascript/office/manifest/set) 元素，其中 `Name` 属性设置为 `Mailbox` 且 `MinVersion` 属性设置为支持加载项方案的 API 最低要求集。
 
 例如，下面的清单段表示 1.1 的最低要求集：
 
